@@ -14,6 +14,11 @@
 		B49E74F81D8D87AD00EA3430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49E74F61D8D87AD00EA3430 /* LaunchScreen.storyboard */; };
 		B49E75031D8D87AD00EA3430 /* trackExpensesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49E75021D8D87AD00EA3430 /* trackExpensesTests.swift */; };
 		B49E750E1D8D87AD00EA3430 /* trackExpensesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49E750D1D8D87AD00EA3430 /* trackExpensesUITests.swift */; };
+		B49E751C1D8D92D000EA3430 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49E751B1D8D92D000EA3430 /* SignUpViewController.swift */; };
+		B49E751E1D8DD23E00EA3430 /* CustomUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49E751D1D8DD23E00EA3430 /* CustomUITextField.swift */; };
+		B49E75201D8E45A900EA3430 /* MyCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49E751F1D8E45A900EA3430 /* MyCustomTextField.swift */; };
+		B49E75221D8E4B9900EA3430 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49E75211D8E4B9900EA3430 /* Constants.swift */; };
+		B49E75241D8E51B400EA3430 /* Tracker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49E75231D8E51B400EA3430 /* Tracker.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		B49E75091D8D87AD00EA3430 /* trackExpensesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trackExpensesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49E750D1D8D87AD00EA3430 /* trackExpensesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackExpensesUITests.swift; sourceTree = "<group>"; };
 		B49E750F1D8D87AD00EA3430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49E751B1D8D92D000EA3430 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B49E751D1D8DD23E00EA3430 /* CustomUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUITextField.swift; sourceTree = "<group>"; };
+		B49E751F1D8E45A900EA3430 /* MyCustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomTextField.swift; sourceTree = "<group>"; };
+		B49E75211D8E4B9900EA3430 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B49E75231D8E51B400EA3430 /* Tracker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tracker.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				B49E74ED1D8D87AD00EA3430 /* AppDelegate.swift */,
+				B49E751D1D8DD23E00EA3430 /* CustomUITextField.swift */,
+				B49E751F1D8E45A900EA3430 /* MyCustomTextField.swift */,
+				B49E75231D8E51B400EA3430 /* Tracker.storyboard */,
 				B49E74EF1D8D87AD00EA3430 /* ViewController.swift */,
+				B49E75211D8E4B9900EA3430 /* Constants.swift */,
 				B49E74F11D8D87AD00EA3430 /* Main.storyboard */,
 				B49E74F41D8D87AD00EA3430 /* Assets.xcassets */,
 				B49E74F61D8D87AD00EA3430 /* LaunchScreen.storyboard */,
 				B49E74F91D8D87AD00EA3430 /* Info.plist */,
+				B49E751B1D8D92D000EA3430 /* SignUpViewController.swift */,
 			);
 			path = trackExpenses;
 			sourceTree = "<group>";
@@ -233,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B49E74F81D8D87AD00EA3430 /* LaunchScreen.storyboard in Resources */,
+				B49E75241D8E51B400EA3430 /* Tracker.storyboard in Resources */,
 				B49E74F51D8D87AD00EA3430 /* Assets.xcassets in Resources */,
 				B49E74F31D8D87AD00EA3430 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B49E751C1D8D92D000EA3430 /* SignUpViewController.swift in Sources */,
+				B49E75201D8E45A900EA3430 /* MyCustomTextField.swift in Sources */,
 				B49E74F01D8D87AD00EA3430 /* ViewController.swift in Sources */,
 				B49E74EE1D8D87AD00EA3430 /* AppDelegate.swift in Sources */,
+				B49E751E1D8DD23E00EA3430 /* CustomUITextField.swift in Sources */,
+				B49E75221D8E4B9900EA3430 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
